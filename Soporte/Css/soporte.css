@@ -1,0 +1,156 @@
+*{
+  padding: 0px;
+  margin:0px;
+}
+html{
+  background: rgb(44, 44, 44);
+}
+
+body{
+  width: 100%;
+  height: 100%;
+ 
+}
+
+
+header .encabezado .logo:hover{
+  
+  width: 100px;
+  position: relative;
+  left: 110px;
+}
+
+.encabezado{
+  background: rgba(155, 40, 40, 0.686);
+}
+
+
+header, main, footer{
+  width: 95%;
+  height: 95%;
+  
+  margin: 5px auto;
+}
+header nav{
+  background: rgba(230, 128, 128, 0.775);
+  overflow: hidden;
+}
+
+header nav ul{
+  list-style: none;
+  
+
+}
+
+header nav ul li{
+  float:right;
+
+}
+header nav ul li:hover{
+  background: #cd5555;
+  
+  
+}
+
+header nav ul li a{
+  padding: 15px 25px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+header nav ul li a:hover{
+font-size: 17px;
+  padding: 13.5px 23.5px;
+  display: block;
+  background: #d44d4d;
+}
+
+.principal p{
+  background:#c07777;
+  text-align: center;
+  font-style:normal;
+  font-size: 20px;
+}
+
+
+.principal h2 {
+  background:#c07777;
+  text-align: center;
+  font-style: italic;
+  font-size: 60px;
+}
+
+
+
+
+footer{
+  width: 100%;
+  height: 25px;
+  color: white;
+  position: fixed;
+
+  margin-right: auto;
+  bottom: 0;
+  text-align: center;
+
+  font-size: 15px;
+  background-color: #070707;
+  border: 1px solid #313131;
+
+}
+
+///////FORMULARIO///////
+.container{
+  margin-top: 150px;
+
+}
+label{
+  position:relative ;
+  text-align: right;
+}
+
+
+form{
+  width: 30%;
+  padding: 20px;
+  border: 1px solid rgb(56, 56, 56);
+  margin: 0 auto;
+  background-image: url(uno.png);
+background-size:100%;
+background-position: center;
+background-repeat: no-repeat;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+
+}
+input, textarea{
+  width: 100%;
+  padding: 15px;
+  border: 1 solid rgb(92, 92, 92);
+  margin-bottom: 20px;
+box-sizing: border-box;
+background: rgba(255, 255, 255, 0.80);
+
+}
+
+input:hover, textarea:hover{
+  background:rgba(187, 187, 187, 0.7) ;
+}
+input:focus, textarea:focus{
+  border: 1px solid rgb(77, 83, 245) ;
+}
+input[type="submit"]{
+  background: rgba(76, 73, 220, 0.85);
+  padding-top: 10px;
+  color: bisque;
+  height: 40px;
+  font-size: 19px;
+  margin-bottom: 0;
+  font-family: monospace;
+  font-style:inherit;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+  box-shadow:0 4px 6px 0 rgb(7, 12, 43);
+  background: rgba(73, 169, 220, 0.85);
+}

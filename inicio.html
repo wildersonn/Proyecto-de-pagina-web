@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="Css/inicio.css">
+  </head>
+  <body>
+
+        <header>
+            <div class="encabezado">
+              <img  src="uno.png" width="100px" alt=""> </img>
+              <section> <p><strong>Usuario:</strong>wilderson <br> <strong>contraseña:</strong>1234</p> </section>
+            </div>
+           
+            <nav>
+              <ul>
+                <li> <a title="Descubre quienes somos" href="#">Quienes somos</a> </li>
+                <li> <a title="Si tenes alguna duda, comunicate con nosotros por este medio" href="Soporte/soporte.html">Soporte</a> </li>
+                <li> <a title="Registrate aqui para tener lo beneficios de esta pagina" href="Registrarse/registrarse.html">Registro</a> </li>
+                <li> <a title="Iniciar sesion" href="inicio.html">Inicio</a> </li>
+              </ul>
+            </nav>
+        </header>
+        <main>
+          <section class="articles">
+            <article class="principal">
+              <h2>Iniciar sesion</h2>
+              <p>Tienes que iniciar sesion primero</p>
+              </article>
+
+            <article class="formulario">    
+              <div class="container">
+                <form>
+                  <label for="correo">Usuario o Correo</label>
+                  <input type="text" id="usuario" placeholder="Escriba su Usuario o Correo">
+
+                    <label for="contraseña">Contraseña</label>
+                    <input type="text" id="contra" placeholder="Escriba su contraseña">
+                    
+
+                    <div class="incorrecto">
+                      <p id="error">
+
+                      </p>
+                    </div>
+
+                    <input type="button" id="boton" value="Iniciar sesion">
+                   
+                    <button class="resgitro"><a href="Registrarse/registrarse.html">Registrarse</a></button>
+                   
+            
+                </form>
+            </div> 
+            </article>
+          </section>
+        </main>
+        <footer>
+          <p>Wilderson Cortes - Curso CSS</p>
+        </footer>
+
+        <script src="js/prueba.js"></script>
+
+  </body>
+</html>

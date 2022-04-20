@@ -1,0 +1,133 @@
+body{
+    background-image: url(../planetas.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+main, footer{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: beige;
+}
+
+main .titulo{
+    width: 40%;
+    height: auto;
+   margin: auto;
+   margin-bottom: 20px;
+   color: bisque;
+
+   
+}
+main .input{
+    width: 40%;
+    margin: 0 auto;
+}
+input[type="text"]{
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.652);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+input[type="text"]:focus{
+border:1px solid red
+}
+
+
+input[type="button"]{
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+    background: rgba(1, 62, 218, 0.686);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    box-shadow: 0 1px 8px 2px rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0);
+}
+
+.inputs{
+    background: rgba(54, 5, 153, 0.481);
+    border-radius: 47%;
+    width:500px;
+    margin: auto;
+    
+
+}
+.resultado div{
+    background: rgba(213, 213, 213, 0.686);
+    border-radius: 47%;
+    width:500px;
+    margin: auto;
+    color: rgb(26, 26, 26);
+}
+
+
+footer p{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: -10px;
+    text-align: center;
+    align-items: center;
+    font-size: 13px;
+    color: beige;
+    background-color: #000000;
+    padding-top: 20px;
+border-bottom: 30px;
+
+}
+header .encabezado .logo:hover{
+  
+    width: 100px;
+    position: relative;
+    left: 110px;
+  }
+  .encabezado{
+    background: rgba(155, 40, 40, 0.35);
+  }
+  header{
+    width: 95%;
+    height: 95%;    
+    margin: 5px auto;
+  }
+  header nav{
+    background: rgba(230, 128, 128, 0.378);
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  header nav ul{
+    list-style: none;
+    
+  
+  }
+  
+  header nav ul li{
+    float:right;
+  
+  }
+  header nav ul li:hover{
+    background: #cd5555;
+    
+    
+  }
+  
+  header nav ul li a{
+    padding: 15px 25px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+  header nav ul li a:hover{
+  font-size: 17px;
+    padding: 13.5px 23.5px;
+    display: block;
+    background: #d44d4d;
+  }
